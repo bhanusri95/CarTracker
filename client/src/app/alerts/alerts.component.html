@@ -1,0 +1,22 @@
+<hr>
+<table class="table">
+  <thead>
+  <tr>
+    <th>Vin</th>
+    <th>Priority</th>
+  </tr>
+  </thead>
+  <tbody>
+  <!--*ngFor="let alert of Highalerts"-->
+  <tr *ngFor="let alert of Highalerts">
+
+      <!--<td>{{alert.vin}}</td>
+      <td>{{alert.priority}}</td>-->
+    <!--<td>{{alert[0]}}</td>
+    <td>{{alert[1]}}</td>-->
+    <!--<td>{{alert}}</td>-->
+    <td>{{alert.vin}}</td>
+    <td>{{alert.priority}}</td>
+  </tr>
+  </tbody>
+</table>
